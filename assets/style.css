@@ -200,6 +200,9 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 .essay .body p { font: 400 19px/1.7 var(--font-display); text-indent: 2em; margin: 0; }
 .essay .body p:first-child { text-indent: 0; }
 .essay .body p:first-child::first-letter { float: left; font-size: 3.3em; line-height: 0.85; padding: 6px 8px 0 0; color: var(--accent); }
+.essay .prompt { margin: 0 0 34px; padding: 16px 20px; border-left: 3px solid var(--accent); background: color-mix(in srgb, var(--accent) 6%, transparent); font: italic 400 16px/1.6 var(--font-display); color: var(--muted); }
+.essay .prompt span { display: block; font: 500 11px/1 var(--font-mono); font-style: normal; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 10px; }
+.essay .prompt cite { display: block; margin-top: 10px; font: 400 12px/1.5 var(--font-mono); font-style: normal; }
 .essay sup a { text-decoration: none; color: var(--accent); font-family: var(--font-mono); font-size: 11px; padding-left: 1px; }
 .essay .refs { margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 14px; }
 .essay .refs h2 { font: 500 12px/1 var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin: 0 0 14px; }
